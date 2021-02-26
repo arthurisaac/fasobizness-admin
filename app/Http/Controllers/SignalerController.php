@@ -15,7 +15,7 @@ class SignalerController extends Controller
      */
     public function index()
     {
-        $signalements = Signaler::paginate(20);
+        $signalements = Signaler::orderByDesc('id')->paginate(20);
         return view('signalement.index', compact('signalements'));
     }
 

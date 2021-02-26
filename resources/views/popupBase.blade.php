@@ -19,7 +19,7 @@
 </head>
 
 <body>
-<nav class="ui top fixed inverted menu">
+{{--<nav class="ui top fixed inverted menu">
     <div class="left menu">
         <a href="#" class="sidebar-menu-toggler item" data-target="#sidebar">
             <i class="sidebar icon"></i>
@@ -48,7 +48,7 @@
             </div>
         </div>
     </div>
-</nav>
+</nav>--}}
 <br>
 @yield('main')
 

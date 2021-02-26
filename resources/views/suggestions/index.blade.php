@@ -18,9 +18,31 @@
     </div>
 
     <div>
-        @foreach($suggestions as $suggestion)
-            {{$suggestion}}
-        @endforeach
+        <div class="main-card mb-3 card">
+            <div class="card-body">
+                <table class="mb-0 table table-bordered">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nom</th>
+                        <th>Tel</th>
+                        <th>Texte</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach($suggestions as $suggestion)
+                        <tr>
+                            <th>{{$suggestion->id}}</th>
+                            <td>{{$suggestion->nom}}</td>
+                            <td>{{$suggestion->tel}}</td>
+                            <td>{{$suggestion->texte}}</td>
+                        </tr>
+                    @endforeach
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 
 @endsection

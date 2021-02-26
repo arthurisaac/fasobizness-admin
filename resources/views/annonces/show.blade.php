@@ -44,7 +44,9 @@
             <br>
             <br>
         @else
-            <h1>Indisponible</h1>
+            <div style="text-align: center;">
+                <h1>Annonce indisponible</h1>
+            </div>
         @endif
     </div>
 
