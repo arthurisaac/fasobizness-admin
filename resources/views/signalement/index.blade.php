@@ -19,7 +19,7 @@
 
     <div>
         <div class="main-card mb-3 card">
-            <div class="card-body"><h5 class="card-title">Table bordered</h5>
+            <div class="card-body">
                 <table class="mb-0 table table-bordered">
                     <thead>
                     <tr>

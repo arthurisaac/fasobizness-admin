@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8b338fb-7afc-4db2-81a5-4cbb65c14a79" name="Default Changelist" comment="Premier commit">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SignalerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SignalerController.php" afterDir="false" />
+    <list default="true" id="f8b338fb-7afc-4db2-81a5-4cbb65c14a79" name="Default Changelist" comment="Ajout fonctionnalites">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PersonneController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PersonneController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/popupBase.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/popupBase.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/personnes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/personnes/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/signalement/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/signalement/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/suggestions/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/suggestions/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +178,7 @@
       <workItem from="1614109532718" duration="856000" />
       <workItem from="1614127436427" duration="1623000" />
       <workItem from="1614313788987" duration="1401000" />
-      <workItem from="1614334466933" duration="4381000" />
+      <workItem from="1614334466933" duration="6377000" />
     </task>
     <task id="LOCAL-00001" summary="Premier commit">
       <created>1614336239442</created>
@@ -187,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614336239442</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajout fonctionnalites">
+      <created>1614339869881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614339869881</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +213,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Premier commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Premier commit" />
+    <MESSAGE value="Ajout fonctionnalites" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout fonctionnalites" />
   </component>
 </project>
