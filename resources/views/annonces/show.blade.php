@@ -28,13 +28,13 @@
                 @if ($annonce->tel2) <p><i class="phone icon"></i> Tel: {{ $annonce->tel2 }}</p> @endif
             </div>
 
-            <div class="ui header">
+            <h2 class="ui header">
                 <img src="{{ ($annonce->personne->photo === "user.png") ? 'https://fasobizness.com/uploads/user.png' : $annonce->personne->photo }}" class="ui circular image" alt="">
                 <div class="content">
                     {{$annonce->personne->nom_pers}}
                     <div class="sub header">{{$annonce->personne->type}}</div>
                 </div>
-            </div>
+            </h2>
             <br>
             <button class="ui primary right labeled icon button"
                     onclick="window.location.href =  '{{ route("annonces.edit", $annonce->id_ann) }}', '{{ $annonce->titre }}'">
