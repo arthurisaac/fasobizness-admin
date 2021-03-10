@@ -106,7 +106,17 @@ class AnnonceController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $annonce = Annonce::find($id);
+        $annonce->texte = $request->get('texte');
+        $annonce->prix = $request->get('prix');
+        $annonce->location = $request->get('location');
+        $annonce->categorie = $request->get('categorie');
+        $annonce->tel = $request->get('tel');
+        $annonce->tel1 = $request->get('tel1');
+        $annonce->tel2 = $request->get('tel2');
+        $annonce->timestamps = false;
+        $annonce->save();
+        return redirect()->route('annonces.show', $id)->with('success', 'Annonce mise à jour');
     }
 
     /**

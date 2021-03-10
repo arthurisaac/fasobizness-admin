@@ -35,11 +35,11 @@ class Annonce extends Model
 
 
     public function illustrations() {
-        return $this->hasMany(\App\Models\Illustration::class, 'id_annonce_fk', 'id_ann');
+        return $this->hasMany(Illustration::class, 'id_annonce_fk', 'id_ann');
     }
 
     public function personne() {
-        return $this->belongsTo(\App\Models\Personne::class, 'id_per_fk', 'id_personne');
+        return $this->belongsTo(Personne::class, 'id_per_fk', 'id_personne');
     }
 
 }

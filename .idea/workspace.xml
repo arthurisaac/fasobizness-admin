@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8b338fb-7afc-4db2-81a5-4cbb65c14a79" name="Default Changelist" comment="Ajout fonctionnalites">
+    <list default="true" id="f8b338fb-7afc-4db2-81a5-4cbb65c14a79" name="Default Changelist" comment="March update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PersonneController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PersonneController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/personnes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/personnes/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/signalement/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/signalement/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnnonceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnnonceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Annonce.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Annonce.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/annonces/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/annonces/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/annonces/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/annonces/show.blade.php" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +17,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -146,26 +150,28 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f8b338fb-7afc-4db2-81a5-4cbb65c14a79" name="Default Changelist" comment="" />
@@ -179,6 +185,7 @@
       <workItem from="1614127436427" duration="1623000" />
       <workItem from="1614313788987" duration="1401000" />
       <workItem from="1614334466933" duration="6377000" />
+      <workItem from="1615381219747" duration="745000" />
     </task>
     <task id="LOCAL-00001" summary="Premier commit">
       <created>1614336239442</created>
@@ -198,14 +205,16 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -214,6 +223,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Premier commit" />
     <MESSAGE value="Ajout fonctionnalites" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout fonctionnalites" />
+    <MESSAGE value="March update" />
+    <option name="LAST_COMMIT_MESSAGE" value="March update" />
   </component>
 </project>

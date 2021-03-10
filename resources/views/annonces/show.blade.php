@@ -16,28 +16,28 @@
             </div>
             <h2 class="ui dividing header">Description</h2>
             <p style="white-space: pre; line-height: 1.7;">{{$annonce->texte}}</p>
-            <div class="ui placeholder segment">
+            <div class="ui">
                 <h3>Prix: {{$annonce->prix}}</h3>
                 <p>
-                    Ville: {{$annonce->location}} <i class="marker red icon"></i><br>
-                    Categorie: {{$annonce->categorie}} <i class="checkmark icon"></i>
+                    <i class="marker red icon"></i> Ville: {{$annonce->location}} <br>
+                    <i class="checkmark icon"></i> Categorie: {{$annonce->categorie}}
                 </p>
                 <h3>Contacts</h3>
-                @if ($annonce->tel) <p>Tel: {{ $annonce->tel }} <i class="phone icon"></i></p> @endif
-                @if ($annonce->tel1) <p>Tel: {{ $annonce->tel2 }} <i class="phone icon"></i></p> @endif
-                @if ($annonce->tel2) <p>Tel: {{ $annonce->tel3 }} <i class="phone icon"></i></p> @endif
+                @if ($annonce->tel) <p><i class="phone icon"></i> Tel: {{ $annonce->tel }}</p> @endif
+                @if ($annonce->tel1) <p><i class="phone icon"></i> Tel: {{ $annonce->tel1 }} </p> @endif
+                @if ($annonce->tel2) <p><i class="phone icon"></i> Tel: {{ $annonce->tel2 }}</p> @endif
             </div>
 
-            <h2 class="ui header">
-                <img src="{{ $annonce->personne->photo }}" class="ui circular image">
+            <div class="ui header">
+                <img src="{{ ($annonce->personne->photo === "user.png") ? 'https://fasobizness.com/uploads/user.png' : $annonce->personne->photo }}" class="ui circular image" alt="">
                 <div class="content">
                     {{$annonce->personne->nom_pers}}
                     <div class="sub header">{{$annonce->personne->type}}</div>
                 </div>
-            </h2>
+            </div>
             <br>
             <button class="ui primary right labeled icon button"
-                    onclick="popup( '{{ route('annonces.edit', $annonce->id_ann) }}', '{{ $annonce->titre }}')">
+                    onclick="window.location.href =  '{{ route("annonces.edit", $annonce->id_ann) }}', '{{ $annonce->titre }}'">
                 <i class="edit icon"></i>
                 Modifier
             </button>
