@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8b338fb-7afc-4db2-81a5-4cbb65c14a79" name="Default Changelist" comment="March update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnnonceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnnonceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Annonce.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Annonce.php" afterDir="false" />
+    <list default="true" id="f8b338fb-7afc-4db2-81a5-4cbb65c14a79" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/resources/views/annonces/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/annonces/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/annonces/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/annonces/show.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +180,7 @@
       <workItem from="1614127436427" duration="1623000" />
       <workItem from="1614313788987" duration="1401000" />
       <workItem from="1614334466933" duration="6377000" />
-      <workItem from="1615381219747" duration="745000" />
+      <workItem from="1615381219747" duration="1005000" />
     </task>
     <task id="LOCAL-00001" summary="Premier commit">
       <created>1614336239442</created>
@@ -201,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614339869881</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="March update">
+      <created>1615382023507</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615382023507</updated>
+    </task>
+    <task id="LOCAL-00004" summary="March update">
+      <created>1615382169277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615382169277</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +230,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Premier commit" />
     <MESSAGE value="Ajout fonctionnalites" />
     <MESSAGE value="March update" />

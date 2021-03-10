@@ -13,7 +13,7 @@
         <br>
 
         @if ($annonce)
-            <form action="{{ route('annonces.update', $annonce->id_ann) }}" class="ui form">
+            <form action="{{ route('annonces.update', $annonce->id_ann) }}" method="post" class="ui form">
                 @csrf
                 @method('PATCH')
                 <div class="field">
