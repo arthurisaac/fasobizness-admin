@@ -35,7 +35,7 @@
                 <div class="field">
                     <label for="categorie">Catégorie</label>
                     {{--<input type="text" name="categorie" value="{{$annonce->categorie}}" required>--}}
-                    <select id="categorie" class="ui dropdown">
+                    <select id="categorie" name="categorie" class="ui dropdown" required>
                         <option>{{$annonce->categorie}}</option>
                         <option value="Immobilier (vente et location)">Immobilier (vente et location)</option>
                         <option value="Articles pour bébés et enfants">Articles pour bébés et enfants</option>
