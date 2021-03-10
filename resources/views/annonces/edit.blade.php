@@ -37,24 +37,24 @@
                     {{--<input type="text" name="categorie" value="{{$annonce->categorie}}" required>--}}
                     <select id="categorie" class="ui dropdown">
                         <option>{{$annonce->categorie}}</option>
-                        <option>Immobilier (vente et location)</option>
-                        <option>Articles pour bébés et enfants</option>
-                        <option>Vêtements et accessoires pour hommes</option>
-                        <option>Vêtements et accessoires pour femmes</option>
-                        <option>Beauté et Santé</option>
-                        <option>Informatique et accessoires</option>
-                        <option>Téléphones, tablettes et accessoires</option>
-                        <option>Auto-moto</option>
-                        <option>Electroménager, articles et linge de maison</option>
-                        <option>Meubles et décoration d'intérieur</option>
-                        <option>Image, son, et jeux vidéo</option>
-                        <option>Electronique et solaire</option>
-                        <option>Agrobusiness, alimentation et restauration</option>
-                        <option>Art, sport, et divertissement</option>
-                        <option>Services, emplois et formations</option>
-                        <option>Matériels de construction et équipements professionnels</option>
-                        <option>Commerce général</option>
-                        <option>Autres catégories</option>
+                        <option value="Immobilier (vente et location)">Immobilier (vente et location)</option>
+                        <option value="Articles pour bébés et enfants">Articles pour bébés et enfants</option>
+                        <option value="Vêtements et accessoires pour hommes">Vêtements et accessoires pour hommes</option>
+                        <option value="Vêtements et accessoires pour femmes">Vêtements et accessoires pour femmes</option>
+                        <option value="Beauté et Santé">Beauté et Santé</option>
+                        <option value="Informatique et accessoires">Informatique et accessoires</option>
+                        <option value="Téléphones, tablettes et accessoires">Téléphones, tablettes et accessoires</option>
+                        <option value="Auto-moto">Auto-moto</option>
+                        <option value="Electroménager, articles et linge de maison">Electroménager, articles et linge de maison</option>
+                        <option value="Meubles et décoration d'intérieur">Meubles et décoration d'intérieur</option>
+                        <option value="Image, son, et jeux vidéo">Image, son, et jeux vidéo</option>
+                        <option value="Electronique et solaire">Electronique et solaire</option>
+                        <option value="Agrobusiness, alimentation et restauration">Agrobusiness, alimentation et restauration</option>
+                        <option value="Art, sport, et divertissement">Art, sport, et divertissement</option>
+                        <option value="Services, emplois et formations">Services, emplois et formations</option>
+                        <option value="Matériels de construction et équipements professionnels">Matériels de construction et équipements professionnels</option>
+                        <option value="Commerce général">Commerce général</option>
+                        <option value="Autres catégories">Autres catégories</option>
                     </select>
                 </div>
                 <div class="field">
