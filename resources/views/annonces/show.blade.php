@@ -37,7 +37,7 @@
             </h2>
             <br>
             <button class="ui primary right labeled icon button"
-                    onclick="window.location.href =  '{{ route("annonces.edit", $annonce->id_ann) }}', '{{ $annonce->titre }}'">
+                    onclick="window.location.href =  '{{ route("annonces.edit", $annonce->id_ann) }}', '{{ $annonce->id_ann }}'">
                 <i class="edit icon"></i>
                 Modifier
             </button>
