@@ -26,7 +26,7 @@
                 </div>
                 <div class="field">
                     <label>Prix</label>
-                    <input type="number" name="prix" value="{{$annonce->prix}}">
+                    <input type="number" name="prix" value="{{($annonce->prix == '') ? '0' : $annonce->prix}}">
                 </div>
                 <div class="field">
                     <label>Ville</label>
